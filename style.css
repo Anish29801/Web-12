@@ -32,6 +32,9 @@ nav{
     font-size: 18px;
     top:-50px;
 }
+.ham{
+    display: none;
+}
 .Lets{
     background-color:#636c79;
     border-color: #d9d9d9;
@@ -256,4 +259,44 @@ hr{
     font-weight: 550;
     font-size: 23px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width:720px) {
+    .items{
+        display: none;
+    }
+    .logo{
+        left: 600px;
+        width: 250px;
+    }
+    .ham{
+        display: block;
+        color: white;
+        font-size: 40px;
+        left: 30px;
+        cursor: pointer;
+    }
+    .Lets{
+        top: -30px;
+        font-size: 30px;
+    }
+    .text1,.Lets_Talk{
+        display: none;
+    }
+
+    .sub1,.team_para,.team_des{
+        display: none;
+    }
+    .image2{
+        width: 500px;
+    }
+    .team1{
+        padding: 20px;
+    }
+    .logo1{
+        left:200px
+    }
+    .icon{
+        left:395px;
+    }
 }
