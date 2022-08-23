@@ -8,4 +8,4 @@
   This Project 12 of the bootcamp. I have really started to enjoy the CSS part. 
    
    It took me about 7 hours to code this project.
-   I learned about mobile mobile responsive design 
+   I learned about mobile responsive design 
